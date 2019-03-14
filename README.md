@@ -45,9 +45,10 @@ A basic Ansible control machine setup targeting an AWS EC2 instance. (Manual set
 ### 17. Install Ansible.
         $ sudo apt install ansible
         
-### 18. Append hosts file contents into /ect/ansible/hosts
+### 18. Append hosts file contents into /etc/ansible/hosts
         $ sudo su
         # cat hosts >> /etc/ansible/hosts
+        # exit
         
 ### 19. Test connection with the Ansible ping module.
         'ping – Try to connect to host, verify a usable python and return pong on success'
