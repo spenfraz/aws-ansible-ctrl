@@ -56,7 +56,16 @@ A basic Ansible control machine setup targeting an AWS EC2 instance. (Manual set
         
         $ ansible test -m ping
         
-        Success Message:
+        (You will get the following message:)
+        
+        The authenticity of host '#.#.#.# (#.#.#.#)' can't be established.
+        ECDSA key fingerprint is SHA256:--------------------------------------------
+        ECDSA key fingerprint is MD5:--:--:--:--:--:--:--:--:--:--:--:--:--:--:--:--.
+        Are you sure you want to continue connecting (yes/no)?
+        
+        (After typing "yes" and pressing "Enter" key.)
+        
+        (Success Message:)
         
         #.#.#.# | SUCCESS => {
         "changed": false, 
