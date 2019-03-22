@@ -1,5 +1,5 @@
 # aws-ansible-ctrl
-A basic Ansible control machine setup targeting an AWS EC2 instance. (Manual setup via the AWS Console. Test the connection to the instance with the ping module.)
+A minimal Ansible control machine setup targeting an AWS EC2 instance. (Manually launch an EC2 instance via the AWS Console. Test the connection to the instance with the ping module.)
 
 #### *TESTED ON* Linux Mint 19.1 Tessa Ubuntu Bionic (18.04)
 
