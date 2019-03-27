@@ -1,4 +1,6 @@
 # aws-ansible-ctrl
+dev. environment ==> https://github.com/spenfraz/vagrant-dev-envs/tree/ansible_local
+---
 A minimal Ansible control machine setup targeting an AWS EC2 instance. (Manually launch an EC2 instance via the AWS Console. Test the connection to the instance with the ping module.)
 
 #### *TESTED ON* Linux Mint 19.1 Tessa Ubuntu Bionic (18.04)
